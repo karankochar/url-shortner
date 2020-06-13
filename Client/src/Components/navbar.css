@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+li, a,button{
+    font-weight: 500px;
+    font-size: 16px;
+    color:  rgb(95, 93, 93);
+    text-decoration: none;
+
+}
+h1{
+    color: #eca130;
+    margin-right: auto;
+    cursor: pointer; 
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.links{
+    list-style: none;
+}
+.links li{
+    display: inline-block;
+    padding: 8px 20px;
+}
+.links li a{
+    transition: all 0.3s ease 0s;
+}
+.links li a:hover{
+    color:  rgba(11, 96, 223, 0.8);
+}
+button{
+    padding: 9px 25px;
+    background-color:  rgba(11, 96, 223, 0.8);
+    border: 1px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+button:hover{
+    background-color:rgba(57, 136, 255, 0.8);
+}

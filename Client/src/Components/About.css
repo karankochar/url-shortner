@@ -1,0 +1,25 @@
+.Container{
+   
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(95, 93, 93);
+    margin-top: 10px;
+}
+
+.heading{
+    display: block;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgba(11, 96, 223, 0.8);
+    text-align: center;
+    cursor: default;
+}

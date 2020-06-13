@@ -1,0 +1,16 @@
+.butt{
+    border:rgba(10, 189, 227, 1); ;
+    padding: 15px 50px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color:  rgba(11, 96, 223, 0.8);
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 10%;
+}
+
+.butt:hover{
+    background-color: rgba(57, 136, 255, 0.8);
+}
