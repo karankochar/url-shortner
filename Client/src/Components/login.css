@@ -1,0 +1,9 @@
+.loginheading{
+    margin-top: 10%;
+    display: block;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: rgba(11, 96, 223, 0.8);
+    text-align: center;
+    cursor: default;
+}
